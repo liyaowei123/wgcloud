@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div  th:replace="common/header.html"></div>
+    <meta charset="UTF-8">
+    <title>密码修改页面</title>
+</head>
+<body>
+<div class="wrapper" style="float: left">
+
+    <section class="content">
+        <div class="left"></div>
+        <form action="/wgcloud/login/saveModify">
+            <p><input type="text" name="username"></p>
+            <p><input type="password" name="pwd"></p>
+            <p><input type="password" name="confirmPwd"></p>
+            <p><input type="submit" value="点击提交修改"></p>
+        </form>
+    </section>
+</div>
+</body>
+</html>
